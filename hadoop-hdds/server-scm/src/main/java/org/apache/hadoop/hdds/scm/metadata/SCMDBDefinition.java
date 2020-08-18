@@ -33,7 +33,7 @@ import org.apache.hadoop.hdds.utils.db.LongCodec;
 /**
  * Class defines the structure and types of the scm.db.
  */
-public class SCMDBDefinition implements DBDefinition {
+public class SCMDBDefinition implements DBDefinition { // 表结构定义
 
   public static final DBColumnFamilyDefinition<Long, DeletedBlocksTransaction>
       DELETED_BLOCKS =

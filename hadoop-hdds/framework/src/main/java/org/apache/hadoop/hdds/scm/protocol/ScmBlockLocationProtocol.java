@@ -38,7 +38,7 @@ import java.util.List;
  */
 @KerberosInfo(serverPrincipal = ScmConfig.ConfigStrings
       .HDDS_SCM_KERBEROS_PRINCIPAL_KEY)
-public interface ScmBlockLocationProtocol extends Closeable {
+public interface ScmBlockLocationProtocol extends Closeable { // OM -> SCM 接口
 
   @SuppressWarnings("checkstyle:ConstantName")
   /**

@@ -48,7 +48,7 @@ import org.slf4j.LoggerFactory;
  * A RocksDB based implementation of SCM Metadata Store.
  *
  */
-public class SCMMetadataStoreImpl implements SCMMetadataStore {
+public class SCMMetadataStoreImpl implements SCMMetadataStore { // SCM元数据
 
   private Table<Long, DeletedBlocksTransaction> deletedBlocksTable;
 
